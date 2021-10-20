@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap" rel="stylesheet">
+
+<style>
+  body {
+    background-color: rgb(154,242,254,255);
+      }
+
+      * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+
+  justify-content: space-between;
+  
+
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.pao {
+  margin-left: 40px;
+  font-size: 20px;
+}
+
+.centertxt {
+
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arimo';
+    font-size: 25px;
+
+}
+
+.centertxt img {
+    width: 600px;
+    height: 400px;
+}
+
+
+h5 {
+  font-size: 40px;
+}
+
+a {
+  text-decoration:none;
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+
+
+
+      </style>
+    <title>TokuClub!!</title>
+  </head>
+  <body>
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid" >
+      <a class="navbar-brand" href="index.html" style="display: flex;"><img src="IMG/TOKUCLUBElogo.png" alt="" width="60" height="54" class="d-inline-block align-text-top"><center><h1></h1>TOKUCLUBE!!!!!</h1></center>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Sinopses</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="zenkaiger.html">Kikai Sentai Zenkaiger</a></li>
+                <li><a class="dropdown-item" href="gavan.html">Detetive espacial Gavan</a></li>
+                <li><a class="dropdown-item" href="jaspion.html">O fantástico Jaspion</a></li>
+                <li><a class="dropdown-item" href="tiga.html">Ultraman TIGA</a></li>  
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Opniões da equipe</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="wizard.html">Kamen rider Wizard</a></li>
+                  <li><a class="dropdown-item" href="garo.html">GARO</a></li>
+                  <li><a class="dropdown-item" href="exaid.html">Kamen rider Ex aid</a></li>
+                  <li><a class="dropdown-item" href="lion.html">Lion man</a></li>
+                </ul>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reviews</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="black.html">Kamen rider Black</a></li>
+                </ul>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contate-nos</a>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Sobre nós</a>
+              </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+<div class="container">
+
+<!-- banner -->
+
+<img src="IMG/TOKUCLUBE.png" class="img-fluid" alt="..." style="width: 100%;">
+
+<!-- carrosel -->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="garo.html"><img src="IMG/Design sem nome.png" class="d-block w-100" alt="..."></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5 style="text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue; color: white;">Opnião da equipe: GARO</h5>
+          <p style="text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue; color: white;">Saiba a opinião da equipe sobre a série do cavaleiro da armadura dourada</p>
+        </div>
+    </div>
+  <div class="carousel-item">
+    <a href="wizard.html"><img src="IMG/Design sem nome (1).png" class="d-block w-100" alt="..."></a>
+      <div class="carousel-caption d-none d-md-block">
+        <h5 style="text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue; color: white;">Opnião da equipe: KAMEN RIDER WIZARD</h5>
+        <p style="text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue; color: white;">Saiba a opinião da equipe sobre Wizard</p>
+      </div>
+  </div> </a>
+    <div class="carousel-item">
+      <a href="black.html"><img src="IMG/Design sem nome (2).png" class="d-block w-100" alt="..."></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5 style="text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue; color: white;">Review: KAMEN RIDER BLACK</h5>
+          <p style="text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em #0000ff; color: white;">Análise sobre o antigo e classico Kamen Rider Black</p>
+        </div>
+    </div>
+  </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+
+<center>
+  <div style="background-color: white;">
+    <br>
+      <h5>Review: Kamen rider Black</h5>
+      <br>
+      <br>
+        <p class="centertxt">Com grande estilo base para sucesso, Kamen rider Black chega em 4 de outubro no ano de 1987, trazendo consigo uma atmosfera sombria e personagens interessantes, Black consegue trazer uma narrativa com mais mistérios e mais desenvolvimentos que as séries passadas.
+          <br>
+          <br>
+          <img src="IMG/mid/black/1.jpg" >
+          <br>
+          <br>
+        A série começa quando Kotaro Minami(Issamu Minami aqui no Brasil) e Nobuhiko Akizuki são capturado por uma organização do mal chamada Gorgoms, uma organização secreta do mal onde eles são influentes no mundo e agem por baixo dos panos, onde tem intenções malignas e atraem pessoas importantes com a promessa de terem a vida eterna, mas essa promessa vem com a penalidade de virar um monstro do mal, mas a ganância das pessoas vão além disso...
+          <br>
+          <br>
+          <img src="IMG/mid/black/2.jpg">
+          <br>
+          <br>
+        Após eles ser capturado, eles entram em uma cirurgia para virar um ciborgues do mal usado para o mal, mas durante o processo de apagar as memórias controlar a mente dele, o pai deles consegue interceder e apenas Kotaro consegue escapar e rouba uma moto chama de "patrol hopper" para ajudar na fuga dele. Numa cena de perseguição num beco, 3 personagens de roupão branco atacam ele num beco, e num ataque que Kotaro fica ferido, ele acidentalmente se transforma por um breve momento em black sun e luta de volta. Ele consegue escapar, mas os Gorgons continuam de olho e perseguindo ele. Kotaro consegue ir pra casa e avisar as pessoas, mas fica em vergonha pois não conseguiu resgatar o seu irmão, e percebe que seu pai foi capturado. após procurar ele e descobrir que os Gorgons controlam ele a muito tempo, o pai dele é mantido em cativeiro por um monstro e Kotaro vai salvar ele.
+          <br>
+          <br>
+          <img src="IMG/mid/black/3.png">
+          <br>
+          <br>
+        Kotaro consegue chegar no pai dele, mas ele é morto e jura ali mesmo que irá acabar com os gorgoms, e entra a cena dele se transformando intencionalmente para usar a armadura do KAMEN RIDER BLACK, aqui chamado de Black sun pelos gorgoms. e assim começa a jornada de vingança de Black...
+          <br>
+          <br>
+          <img src="IMG/mid/black/4.jpg">
+          <br>
+          <br>
+          Com uma introdução dessas, o rumo da série é ditado. Onde eles apresentam um problema, o vilão perde e os Gorgoms procuram outro jeito de destruir o BLACK. Mas essa série faz algo que outros Kamenr riders falham, ele explora essa narrativa pra as vezes quebrar ela e fazer contruções de episódios que são únicas e pro padrão da época. Menção honrosa pro episódio que teve um inimigo que Kotaro não conseguia derrotar, e teve que treinar e aprender outro ataque para derrota-lo. Esse episódio teve uma construção e um desenvolvimentos incriveis, um dos melhores episódios da série até.
+          <br>
+          <br>
+          <img src="IMG/mid/black/5.jpg">
+          <br>
+          <br>
+        Este review não está com o intuito de explorar e analisar todos os episódios, mas o intuito de apresentar pontos positivos da série e incenvivar você a ler. Todos os episódios se encontram legendados e dublados no youtube e na internet por aí. uma ressalva pra playlist no youtube da série legendada. link abaixo:
+          <br>
+          <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL60SfTrykhMwvNjo0B01nFLDPRPYekFgC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          <br>
+        Se eu me deixar levar isso fica enorme e gigante e vou acabar dando spoiler... então é melhor parar por aqui, obrigado por lerem!
+               
+        <br>
+        <br>
+        <img src="IMG/mid/black/6.png">
+        <br>
+        <br>
+      </p>
+    <br>
+  <div class="creditos">
+    <h3>redator da vez:</h3>
+    <img src="IMG/pfp/samu.png" alt=""> <p>samuloko</p>
+    <h6>"SE EX AID É BOM ENTÃO EU SOU RICO!"</h6>
+  </div>
+    <!-- Slideshow container -->
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <div >
+      <p>direitos reservados a: @samuloko_</p>
+    </div>
+</div>
+
+
+</div>
+</center>
+
+
+</div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
